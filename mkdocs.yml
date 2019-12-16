@@ -3,6 +3,7 @@ site_name: My Docs
 
 nav:
     - Home: index.md
+    - First: first.md
     - C语言: c/c_language.md
     - C++语言: c++/c++_language.md
     - Java语言: java/java_language.md
