@@ -1,6 +1,16 @@
 site_name: My Docs
 
 
+theme:
+  name: 'mkdocs'           # 你的主题名称
+  highlightjs: true        # 打开代码高亮
+  hljs_style: dark         # 代码高亮风格
+  hljs_languages:          # 编程语言
+    - c
+    - c++
+    - java
+    - python
+
 nav:
     - Home: index.md
     - First: first.md
@@ -11,3 +21,6 @@ nav:
     - Linux开发:
         - Linux驱动开发: linux/linux_drv/linux_drv.md
         - Linux应用开发: linux/linux_app/linux_app.md
+        
+extra_css:
+    - css/extra.css
