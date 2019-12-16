@@ -1,0 +1,12 @@
+site_name: My Docs
+
+
+nav:
+    - Home: index.md
+    - C语言: c/c_language.md
+    - C++语言: c++/c++_language.md
+    - Java语言: java/java_language.md
+    - Python语言: python/python_language.md
+    - Linux开发:
+        - Linux驱动开发: linux/linux_drv/linux_drv.md
+        - Linux应用开发: linux/linux_app/linux_app.md
